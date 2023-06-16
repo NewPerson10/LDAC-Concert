@@ -4,13 +4,13 @@
     font-family: 'Poppins', sans-serif;
 }
 #banner{
-    background: linear-gradient(rgba(0,0,0,0.5),#8d1e1e),url(images/exps138239_THHC2238742B09_20_7b_WEB.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5),#4ea0e4e2),url(images/pie.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
 .logo{
-    background-color:#8d1e1e38;
+    background-color:#4ea0e493;
     width: 70px;
     position: absolute;
     top:2%;
@@ -24,7 +24,10 @@
 }
 .banner-text h1{
  font-size: 130px;
+ font-weight: bolder;
+ /***
  font-family: 'Kaushan Script', cursive;
+ **/
 }
 .banner-text p{
   font-size: 20px;
@@ -32,7 +35,6 @@
 }
 .banner-btn{
     margin: 70px auto 0;
-    
 }
 .banner-btn a{
     width: 150px;
@@ -112,7 +114,7 @@
     position: fixed;
     right: -250px;
     top: 0;
-    background: #8d1e1ead;
+    background: #4ea0e4f1;
     z-index: 2;
     transition: 0.5s;
     padding-top: 50px;
@@ -128,9 +130,9 @@ nav ul li a{
     color: #fff;
 }
 #menubtn{
-    width: 50px;
-    height: 50px;
-    background: #8d1e1e53;
+    width: 70px;
+    height: 70px;
+    background: #4ea0e488;
     text-align: center;
     position: fixed;
     right: 30px;
@@ -140,8 +142,8 @@ nav ul li a{
     cursor: pointer;
 }
 #menubtn img{
-    width: 25px;
-    margin-top: 15px;
+    width: 40px;
+    margin-top: 20px;
 }
 @media screen and  (max-width: 770px){
      .banner-text h1{
@@ -163,18 +165,19 @@ nav ul li a{
 }
 .title-text p{
         margin: auto;
-        font-size: 20px;
-        color: #8d1e1e;
+        font-size: 25px;
+        color: #4ea0e4e2;
         font-weight: bold;
         position:relative;
         z-index: 1;
         display: inline-block;
+        padding-top: 10px;
 }
 .title-text p::after{
     content: '';
     width: 50px;
     height: 35px;
-    background: linear-gradient(#8d1e1e,#fff);
+    background: linear-gradient(#4ea0e4e2,#fff);
     position: absolute;
     top: -20px;
     left: 0;
@@ -185,7 +188,8 @@ nav ul li a{
 }
 
 .title-text h1{
-    font-size: 50px;
+    margin-top: 10px;
+    font-size: 40px;
 }
 .feature-box{
     width: 80%;
@@ -196,24 +200,58 @@ nav ul li a{
     text-align: center;
 }
 .features{
-    flex-basis: 50%;
+    flex-basis: 100%;
 }
 .features-img{
     flex-basis: 50%;
     margin: auto;
+    margin-top: 10px;
 }
 .features-img img{
     width: 90%;
     border-radius: 10px;
 }
 .features h1{
-    text-align: left;
+    text-align: center;
     margin-bottom: 10px;
     font-weight: 100;
-    color:#8d1e1e;
+    color:#4ea0e4;
 }
 .features-desc{
     display: flex;
     align-items: center;
+    margin-top: 20px;
     margin-bottom: 40px;
+}
+#buttons{
+    position: absolute;
+    margin-top: 0vh;
+    width: 100%;
+    text-align: center;
+    font-size: 200%;
+    height: 100px;
+}
+
+
+  .socials{
+    width: 100%;
+    height: 200px;
+    margin-top: 0vh;
+    position: absolute;
+    border-radius: 20px;
+}
+.socials img{
+    float: center;
+    margin: 1px;
+    margin-right: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    
+}
+.socials button{
+    background-color: #00000000;
+    border: 1px solid black;
+    border-color: #fff;
 }
