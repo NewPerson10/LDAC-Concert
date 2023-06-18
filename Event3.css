@@ -4,10 +4,10 @@
     font-family: 'Poppins', sans-serif;
 }
 #banner{
-    background: linear-gradient(rgba(0,0,0,0.5),#4ea0e4e2),url(images/pie.jpg);
+    background: linear-gradient(rgba(0,0,0,0.7),#4ea0e4),url(images/pie.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 80vh;
 }
 .logo{
     background-color:#4ea0e493;
@@ -45,6 +45,7 @@
     color: #fff;
     border: .5px solid #fff;
     position: relative;
+    background-color: #4ea0e43d;
     z-index: 1;
     transition: color o.5s;
     border-radius: 5px;
