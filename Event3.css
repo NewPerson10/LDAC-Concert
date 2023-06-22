@@ -107,7 +107,22 @@
   .close:hover {
     color: #ccc;
   }
-  
+  #menubtn{
+    width: 70px;
+    height: 70px;
+    background: #4ea0e47e;
+    text-align: center;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    z-index: 8;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#menubtn img{
+    width: 40px;
+    margin-top: 20px;
+}
 
 #SideNav{
     width: 150px;
