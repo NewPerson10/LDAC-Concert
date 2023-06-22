@@ -110,41 +110,37 @@
   
 
 #SideNav{
-    width: 120px;
+    width: 150px;
     height: 100vh;
     position: fixed;
-    right: -250px;
+    right: -450px;
     top: 0;
-    background: #4ea0e4f1;
-    z-index: 2;
+    background: #357acee7;
+    z-index: 7;
     transition: 0.5s;
-    padding-top: 50px;
+    text-align: left;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight:bolder;
+    
+}
+#SideNav nav ul{
+    padding-top: 70px;
+    font-weight: bolder;
 }
 
-nav ul li{
+#SideNav nav ul li{
+    
     list-style: none;
-    margin-top: 50px ;
-    margin-left: 10px;
+    margin: 60px 30px;
+    font-weight: bolder;
 }
-nav ul li a{
+#SideNav nav ul li a{
     text-decoration: none;
     color: #fff;
-}
-#menubtn{
-    width: 70px;
-    height: 70px;
-    background: #4ea0e488;
-    text-align: center;
-    position: fixed;
-    right: 30px;
-    top: 20px;
-    border-radius: 10px;
-    z-index: 3;
-    cursor: pointer;
-}
-#menubtn img{
-    width: 40px;
-    margin-top: 20px;
+    font-size: 70%;
+    font-weight: bolder;
+    
 }
 @media screen and  (max-width: 770px){
      .banner-text h1{
